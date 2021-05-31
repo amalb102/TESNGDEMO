@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter"/>
+    <listener class-name="org.testng.reporters.XMLReporter"/>
+    <listener class-name="org.testng.reporters.FailedReporter"/>
+  </listeners>
+  <test thread-count="5" name="C:/Users/amara/Downloads/GroupTestNG/TESTNGDEMO(failed)">
+    <classes>
+      <class name="FirstTest">
+        <methods>
+          <include name="test_tow"/>
+        </methods>
+      </class> <!-- FirstTest -->
+    </classes>
+  </test> <!-- C:/Users/amara/Downloads/GroupTestNG/TESTNGDEMO(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
